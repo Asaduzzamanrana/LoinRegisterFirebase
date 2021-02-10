@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background"
     android:gravity="center"
     android:orientation="vertical"
     android:layout_height="match_parent"
@@ -16,12 +15,13 @@
         android:src="@drawable/logo"/>
 
     <EditText
+        android:background="@drawable/edittext_shape"
         android:id="@+id/userNameEditTextId"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
         android:drawableLeft="@drawable/username"
         android:hint="email"
         android:inputType="textEmailAddress"
@@ -29,10 +29,11 @@
         android:textStyle="bold"/>
 
     <EditText
+        android:background="@drawable/edittext_shape"
         android:id="@+id/passwordEditTextId"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
         android:drawableLeft="@drawable/password"
         android:hint="password"
         android:inputType="textPassword"
@@ -61,7 +62,7 @@
             android:id="@+id/textviewid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Are you register? or"
+            android:text="Create Account?"
             android:textSize="20sp"
             android:textStyle="bold"/>
 
@@ -70,8 +71,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
-            android:text="SingUp"
-            android:textColor="@color/black"
+            android:text="Click Here"
+            android:textColor="#6200EE"
             android:textSize="20sp"
             android:textStyle="bold"
             />
@@ -83,5 +84,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:visibility="gone" />
+
 
 </LinearLayout>
